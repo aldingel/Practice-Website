@@ -34,6 +34,13 @@ export default function Home() {
     <div className="min-h-screen bg-[linear-gradient(135deg,_#fff6e8_0%,_#ffd9e8_100%)] px-4 py-8 text-slate-800 sm:px-6 lg:px-8">
       <main className="mx-auto flex max-w-6xl flex-col gap-6">
         <section className="overflow-hidden rounded-[2.5rem] border border-amber-300 bg-white p-8 shadow-[0_18px_60px_rgba(217,119,6,0.2)] md:p-12">
+          <div className="mb-6 flex flex-wrap items-center justify-center gap-2 rounded-full border border-amber-200 bg-gradient-to-r from-amber-100 via-orange-50 to-amber-100 px-4 py-2 text-sm font-semibold text-amber-800 shadow-sm">
+            <span>🔥</span>
+            <span>Cat empire in progress</span>
+            <span>👑</span>
+            <span>🔥</span>
+            <span>👑</span>
+          </div>
           <div className="grid gap-8 md:grid-cols-[1.1fr_0.9fr] md:items-center">
             <div className="space-y-5 text-center md:text-left">
               <div className="inline-flex items-center rounded-full bg-amber-100 px-3 py-1 text-sm font-semibold uppercase tracking-[0.2em] text-amber-800">
@@ -54,6 +61,9 @@ export default function Home() {
 
             <div className="rounded-[1.75rem] border border-amber-300 bg-[radial-gradient(circle_at_top_left,_#fff7d6,_#ffe3ef_70%,_#e6f7ff_100%)] p-6 shadow-[0_10px_30px_rgba(244,114,182,0.12)]">
               <div className="rounded-[1.25rem] border border-amber-200 bg-white p-5 shadow-sm">
+                <div className="mb-4 flex items-center justify-center">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-full border border-amber-200 bg-amber-50 text-2xl">🐱</div>
+                </div>
                 <p className="text-sm font-semibold uppercase tracking-[0.25em] text-slate-500">Important proclamation</p>
                 <p className="mt-3 text-xl font-black text-slate-900">
                   “The human may be useful, but the cat is essential.”
@@ -84,7 +94,12 @@ export default function Home() {
 
 
         <section className="rounded-[2.25rem] border border-amber-300 bg-[#fff7ef] p-8 shadow-[0_12px_40px_rgba(249,115,22,0.12)] md:p-10">
-          <div className="max-w-3xl">
+          <div className="mb-4 flex items-center gap-2 text-2xl text-amber-700">
+            <span>�</span>
+            <span>👑</span>
+            <span>🐾</span>
+          </div>
+          <div className="mt-4 max-w-3xl rounded-[1.5rem] border border-amber-200 bg-white/80 p-5 shadow-sm">
             <p className="text-sm font-semibold uppercase tracking-[0.3em] text-slate-500">Petition of the whiskered</p>
             <h2 className="mt-2 text-3xl font-black text-slate-900 sm:text-4xl">We demand peace from dogs and vacuumers.</h2>
             <p className="mt-3 text-lg font-medium leading-8 text-slate-700">
